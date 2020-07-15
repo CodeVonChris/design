@@ -1,0 +1,404 @@
+html,body{  margin: 0;  padding: 0;
+  height: 100%;  text-align: center;}
+section{ min-height: 100%; }
+a{  text-decoration: none;}
+li{  list-style-type: none;}
+h1, h2, a{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: #414141;
+  text-transform: uppercase;
+  padding-top: 2%;
+}
+section h1{ text-transform: capitalize;}
+h5,h4,p{font-family: serif; color: #646464; }
+h2{color: #414141;}
+h3{font-size: 35px; margin-bottom: 5px;}
+hr{  width: 100px;
+  height: 2px;
+  background: #1e7afa;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+ .fa-chevron-circle-down, .logo, li, img, .button{transition: all 700ms;
+-webkit-transition: all 500ms;
+-o-transition: all 500ms;
+}
+select a{transition: all 700ms;
+-webkit-transition: all 500ms;
+-o-transition: all 500ms;
+}
+.fa-bars{display: none; /* NOTE:  */}
+header{
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 4px;
+  left: 0;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.logo{
+  width: 140px;
+  float: left;
+  border: 10px 0 0 50px;
+}
+.logo:hover{
+  opacity: 0.5;
+}
+.logo img{
+  width: 100%;
+}
+header nav{
+  float: right;
+  margin: 10px 50px 0 0;
+}
+
+header nav ul li{
+  float: left;
+  margin-right: 20px;
+}
+header nav ul li a{
+  font-size: 16px;
+}
+header nav ul li:hover{
+  padding-top:  4px;
+}
+/* starten -  */
+#bildungsweg .l{
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 260px;
+
+}
+#bildungsweg .r{
+  display: inline-block;
+  float: right;
+  margin: 0 250px 0 0;
+  text-align: left;
+}
+#erfahrung .l{
+  float: left;
+  margin: 0 0 0 150px;
+}
+#erfahrung .r{
+  float: right;
+  margin: 0 150px 0 0;
+  text-align: left;
+
+}
+.erfahrungen {min-height:  40%; }
+.erfahrungen #l{
+  float: left;
+  margin: 0 0 0 150px;
+}
+.erfahrungen #r{
+  float: right;
+  margin: 0 150px 0 0;
+  text-align: left;
+}
+#home{
+  background: url(../src/aerial-view-of-clouds.jpg);
+  background-position: center center;
+  background: cover;
+  background-attachment: fixed; /*!!bild bleibt in einer Stelle.*/
+}
+#home h1{
+  margin: 70px auto 0 auto;
+  font-size: 110px;
+}
+#home h2{
+  margin: 0 auto 0 auto;
+}
+
+#home img{
+  width: 32px;
+  margin-top: 150px;
+  opacity: 0.7;
+
+}
+#home img:hover{
+  width: 32px;
+  margin-top: 150px;
+  opacity: 0.95;
+
+}
+#bildungsweg img{
+  width: 32px;
+  margin-top: 200px;
+  opacity: 0.6;
+  margin-left: 300px;
+}
+#bildungsweg img:hover{
+  width: 32px;
+  margin-top: 200px;
+  opacity: 0.6;
+
+
+}
+#zur_person{
+  min-height: 50%;
+}
+#zur_person p a{
+ text-transform: lowercase;
+}
+.fa-chevron-circle-down{
+  width: 32px;
+  margin-top: 20px;
+  opacity: 0.35;
+  /* display: block; */
+  margin-left: auto; margin-right: auto;
+}
+.fa-chevron-circle-down:hover{
+  width: 32px;
+  margin-top: 20px; color: blue;
+  opacity: 0.9;
+}
+.pf{
+  display: block;
+  margin: 0 auto 0 auto;
+
+}
+#content-center{
+  text-align: center;
+}
+/* Section : Erfahrung */
+#work {
+  background-color: #f1f1f1;
+}
+#erfahrung{
+  background-color: #e8f0fc;
+}
+#ebildung{
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+#ebildung ul{  padding: 0;}
+#ebildung ul li{
+  width: 50%; float: left;
+
+   text-align: left;
+}
+
+table {
+  margin-left: 100px;
+}
+table td {
+  text-align: left; padding-left: 5px;
+}
+#bord{
+  border-bottom: 1px solid #099;
+}
+.projekt {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  /* display: block; */
+}
+/* #separator{
+  display: inline-block;
+} */
+.projekt ul li{
+  width: 25%; float: left;
+  /* width 1/3 von 900px, das heißt , das drei Elemente reinpassen. */
+  margin-bottom: 20px;
+}
+.projekt ul{  padding: 0;}
+.projekt img{
+  width: 260px;
+  height: auto;
+  border-radius: 5px;
+}
+.projekt img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.erfahrungen div{
+  display: inline-block; float: left;
+  margin-left: 150px;;
+  margin-right: auto;
+}
+.erfahrungPlus{
+  min-height: 0%;
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-right: 100em solid #b5c7db;
+  border-right-width: 100%;
+}
+/* Kontakt */
+form input, textarea{
+  font-family: serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-radius: 1px;
+  border-color: #646464;
+  /* outline: none; */
+}
+form input{
+  width: 550px;
+  height: 30px;
+}
+form input:first-child{
+  margin-top: 10px;
+}
+form textarea{
+  width: 550px;
+  height: 200px;
+  resize: none;
+}
+.text_{
+  color: #a022a0;
+  padding-left: 30px; border-radius: 4px;
+}
+.button{
+  background-color: #c0c0c0;
+  color: rgba(255,0,0,0.5);
+  width: 40%;
+  height: 50px;
+  border-radius: 4px;
+}
+.button:hover{
+  background-color: rgba(255,0,0,0.5);
+  color: #c0c0c0;
+  border-radius: 8px;
+}
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #3b3b3b;
+}
+footer p{
+  font-size: 1.5em;
+  color: #f0f0f0;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  header{
+    height: auto;
+  }
+  .logo{
+    width: 100px;
+    margin-top: 5px;
+  }
+  header nav{
+    margin-top: 0;
+  }
+  header nav ul li{
+    font-size: 12px;
+  }
+  #home h1{
+    font-size: 90px;
+    margin-top: 200px;
+
+  }
+  h3,h4{
+    padding-top: 2%;
+  }
+  #bildungsweg p{
+    width: 80%;
+  }
+  .projekt {width: auto; }
+  .projekt ul li {
+    width: 100%;
+    float: none;
+  }
+  .projekt ul li:last-child {
+    padding-bottom: 20%;
+  }
+  .projekt img{
+    width: 55%;
+    height: auto;
+  }
+  form input, form textarea{
+    width: 60%; border-radius: 3px;
+  }
+
+  .erfahrungen div{
+
+    display: block; float: left;
+    margin-left: 70px;;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo{
+    width: 100px;
+    margin-top: 5px;
+  }
+  header nav{
+    margin-top: 0;
+    float: none;
+  }
+  .fa-bars {
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+  }
+  .fa-bars:hover{
+    opacity: 0.6;
+  }
+  header nav ul {
+    /* //height: 0;   */
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+  header nav ul.open{
+    height: auto;
+  }
+
+  header nav ul li{
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 11px;
+    border-top:1px solid #aaaaaa;
+
+  }
+
+  #home h1{
+    font-size: 60px;
+    margin-top: 180px;
+  }
+
+  #home h2{
+    width: 70%;
+    height: auto;
+
+  }
+  .projekt img{
+    width: 70%;
+    height: auto;
+  }
+  form input, form textarea{
+    width: 70%;
+  }
+  .button{
+
+  }
+  #ebildung ul li{
+    display: inline-block;
+    font-size: 10px;
+    width: auto;
+    float: left;
+    text-align: center;
+
+  }
+  .erfahrungen div{
+    font-size: 10px;
+  }
+}
